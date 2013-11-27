@@ -1,0 +1,4 @@
+*.o
+mipsify
+tests/runner
+output.s
