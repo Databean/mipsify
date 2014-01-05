@@ -2,3 +2,8 @@
 mipsify
 tests/runner
 output.s
+src/lex.yy.c
+src/y.output
+src/y.tab.c
+src/y.tab.h
+tests/runner.cpp
