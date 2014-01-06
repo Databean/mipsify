@@ -3,7 +3,7 @@ OBJECTS := $(addprefix $(OBJ_HOME)/, $(SOURCES:.cpp=.o))
 HEADERS := $(wildcard *.h)
 
 CC := g++
-CFLAGS := -Wall -c -g -std=gnu++11 -I$(realpath .)
+CFLAGS := -Wall -c -g -std=gnu++11 -I. -I$(INCL_HOME)
 
 .PHONY: main 
 main: $(OBJECTS) $(OBJ_HOME)/lex.yy.o $(OBJ_HOME)/y.tab.o

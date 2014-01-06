@@ -4,7 +4,7 @@ HEADERS := $(wildcard *.h)
 PARENT_HEADERS := $(wildcard ../*.h)
 
 CC := g++
-CFLAGS := -Wall -c -g -std=gnu++11 -I..
+CFLAGS := -Wall -c -g -std=gnu++11 -I$(INCL_HOME) -I$(INCL_HOME)/mips32
 
 .PHONY: main 
 main: $(OBJECTS)

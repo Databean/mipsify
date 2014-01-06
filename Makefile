@@ -1,5 +1,6 @@
 ALLFILES := $(wildcard src/*)
 export OBJ_HOME := $(realpath obj)
+export INCL_HOME := $(realpath include)
 export SRC_HOME := $(realpath src)
 EXECUTABLE := mipsify
 CC := g++
